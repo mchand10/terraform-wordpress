@@ -6,7 +6,7 @@ resource "aws_db_subnet_group" "sqldb-subnet" {
 
 resource "aws_db_parameter_group" "sqldb-parameters" {
     name = "sqldb-parameters"
-    family = "mysql5.6"
+    family = "mysql5.7"
     description = "SQLDB parameter group"
 
     parameter {
